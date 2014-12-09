@@ -1,0 +1,728 @@
+/* Using Google Early Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(http://fonts.googleapis.com/earlyaccess/lateef.css);
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+/* Layout */
+#main,
+#top-wrap h1,
+#tagline,
+#nav,
+#footer-wrap-inner,
+.message {
+	width: 90%;
+	max-width: 80em;
+	margin: 0 auto;
+}
+
+#main {
+	background: white;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #ccc;
+	border-width: thin;
+}
+
+/* Add borders so the sides line up with #main */
+#nav {
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #333;
+	border-color: rgba(50, 50, 50, 0.7);
+	border-width: thin;
+}
+
+textarea {
+		font-family: 'DejaVu Sans', Tahoma, serif;
+		font-size: 13px;
+		width: 100%;
+		}
+body {
+	font-family: "Droid Arabic Naskh", 'DejaVu Sans', Tahoma, serif;
+	line-height: 1.4;
+	font-size: 14px;
+	background: #f0f0f0 url(images/stripes-dark.svg);
+	color: #333333;
+}
+
+/* Use sans-serif font for headings and navigation */
+h1,
+h2,
+h3 {
+	font-family: "Droid Arabic Naskh", Tahoma, "DejaVu Sans", Verdana, sans-serif;
+	border-bottom: 1px solid gray;
+	margin-bottom: 10px;
+	}
+h4,
+h5,
+h6,
+#nav-meta,
+#menu,
+#bottom-wrap {
+	font-family: "Droid Arabic Kufi", Tahoma, "DejaVu Sans", Verdana, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+
+/* Set attractive monospace fonts */
+/* @noflip */
+pre { 
+		padding: 1em;
+		border: 1px dashed #2f6fab;
+               -webkit-border-top-left-radius: 13px;
+               -webkit-border-bottom-right-radius: 13px;
+               -moz-border-radius-topleft: 13px;
+               -moz-border-radius-bottomright: 13px;
+               border-top-left-radius: 13px;
+               border-bottom-right-radius: 13px;
+		color: black;
+		background-color: #f9f9f9;
+		line-height: 1.1em;
+		direction: ltr;
+		font-size: 14px;
+		white-space: pre-wrap;       /* css-3 */
+		white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
+		white-space: -pre-wrap;       /* Opera 4-6 */
+		white-space: -o-pre-wrap;       /* Opera 7 */
+		word-wrap: break-word;       /* Internet Explorer 5.5+ */
+		overflow:  hidden;
+		margin: 7px 0px;
+		
+
+}
+/* @noflip */
+.c.source-c, .cpp.source-cpp, .xml.source-xml, .ruby.source-ruby, .mysql.source-mysql, .java.source-java, .sql.source-sql, .php.source-php, .css.source-css, .bash.source-bash, .javascript.source-javascript, .perl.source-perl, .python.source-python, .text.source-text, .html4strict.source-html4strict {
+		padding: 1em;
+		border: 1px dashed #2f6fab;
+               -webkit-border-top-left-radius: 13px;
+               -webkit-border-bottom-right-radius: 13px;
+               -moz-border-radius-topleft: 13px;
+               -moz-border-radius-bottomright: 13px;
+               border-top-left-radius: 13px;
+               border-bottom-right-radius: 13px;
+		color: black;
+		background-color: #f9f9f9;
+		line-height: 1.1em;
+		overflow:  hidden;
+		margin: 7px 0px;
+
+}
+
+/* Headings */
+h1 {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-top: 1.3em;
+}
+
+h2 {
+	font-size: 1.25em;
+	margin-top: 1em;
+}
+
+h3 {
+	font-size: 1.2em;
+	margin-top: 1.15em;
+}
+
+h4 {
+	font-size: 1.1em;
+	margin-top: 1.3em;
+}
+
+h5 {
+	font-size: 1em;
+	margin-top: 1.5em;
+}
+
+h1 + h2,
+h1 + h3,
+h1 + h4,
+h1 + h5,
+h1 + h6,
+h2 + h3,
+h2 + h4,
+h2 + h5,
+h2 + h6,
+h3 + h4,
+h3 + h5,
+h3 + h6,
+h4 + h5,
+h4 + h5,
+h5 + h6 {
+	margin-top: 0;
+}
+
+td > h1:first-child,
+td > h2:first-child,
+td > h3:first-child,
+td > h4:first-child,
+td > h5:first-child,
+td > h6:first-child {
+	margin-top: 0;
+}
+
+/* Header */
+/* @noflip */
+#top-wrap {
+	  background-image:
+    linear-gradient(
+       #324e73, #203149
+    );
+	padding: 0.625em 0;
+	color: #ffffff;
+}
+/* @noflip */
+#top-wrap h1 {
+	text-decoration: none;
+	font-size: 2.25em;
+	line-height: 1;
+	border: 0;
+	height: 134px;
+}
+
+#top-wrap a,
+#top-wrap a:visited {
+	color: #ffffff;
+}
+
+#tagline {
+	font-size: 0.875em;
+}
+
+/* Menu */
+#menubutton {
+	display: none;
+}
+
+#menu {
+	margin: 1em 0 -0.625em;
+	overflow: hidden;
+	padding: 0.5em 2em 0.5em 3.75em;
+	background: #203149;
+}
+
+#menu a {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+#menu a:hover,
+#menu a:focus {
+	text-decoration: underline;
+}
+
+#menu li {
+	display: block;
+	float: left;
+	margin: 0em 0.6em 0em 0em;
+	padding-right: 0.6em;
+	border-right: thin solid #666666;
+}
+
+#menu li:last-child {
+	border-right: none;
+}
+
+/* Footer */
+#bottom-wrap {
+	background-image:
+    linear-gradient(
+       #324e73, #203149
+    );
+	clear: both;
+	color: #ffffff;
+	padding: 1.5em 0 2.5em;
+}
+
+.footer {
+	float: left;
+	width: 25%;
+	margin-left: 5%;
+}
+
+.footer li {
+	list-style: none;
+	margin: 0em;
+}
+
+.footer ul {
+	margin: 0em;
+	
+}
+
+.footer .widget li {
+	font-size: 0.875em;
+
+}
+
+.footer .widget p {
+	font-size: 0.75em;
+}
+
+.footer h3 {
+	border-bottom: thin solid #666666;
+	margin-bottom: 0.2em;
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+
+.footer a,
+.footer a:visited,
+.footer a.new {
+	color: #ffffff;
+	border-bottom: thin solid #999999;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a.new:hover,
+.footer a.new:focus {
+	border-color: #cccccc;
+}
+
+.footer li > a,
+.footer li > a:visited,
+.footer li > a.new {
+	border-color: #444444;
+}
+
+/* Footer to content (for FooterLinks) */
+#footer {
+	display: block;
+	clear: both;
+	text-align: left;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	font-size: 0.75em;
+}
+
+#footer p {
+	margin-bottom: 0em;
+}
+/* @noflip */
+#footer ul {
+	list-style-type: square;
+	}
+/* @noflip */
+#footer li {
+	margin-right: 20px;
+	}
+/* Content */
+#bodyContent,
+.message *,
+#footer {
+	padding-left: 3.75em;
+	padding-right: 3.75em;
+}
+
+#bodyContent {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+hr {
+	/* This hack ensures fallback to .png if .svg isn't supported
+	 * (see http://css-tricks.com/svg-fallbacks/ ) */
+	background-image: url(images/hr.png);
+	background-image: url(images/hr.svg), none;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 80% 10%;
+	height: 1.25em;
+	display: block;
+	border: none;
+}
+
+#bodyContent > h1 {
+	color: #555555;
+	margin: 0 0 0.5em;
+}
+
+p,
+dt,
+dd,
+blockquote,
+center {
+	margin-bottom: 0.75em;
+}
+
+li {
+	margin-bottom: 0.375em;
+	margin-top: 0.375em;
+}
+
+table {
+	margin: 1em 0;
+}
+
+td,
+th {
+	padding: 0.125em 0.5em;
+	text-align: left;
+}
+
+pre {
+	font-size: 0.875em;
+}
+
+legend {
+	font-size: 0.875em;
+	text-align: center;
+}
+
+blockquote {
+	padding-left: 3em;
+}
+
+.center {
+	width: 100%;
+	text-align: center;
+}
+
+.center * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Links */
+a {
+	color: #0000bb;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+a:hover,
+a:focus {
+	border-color: #555555;
+}
+
+a:visited {
+	color: #330077;
+}
+
+a.new {
+	color: #cc0000;
+}
+
+/* Links that are obvious from their design surroundings */
+#catlinks a,
+#footer a,
+a#menubutton,
+#menu a,
+#top-wrap h1 a,
+.gallery a,
+.thumbinner > a {
+	border-bottom: none;
+}
+
+/* Meta (edit links etc.) */
+/* @noflip */
+#nav-meta {
+	float: right;
+	margin: 1.5em 3.75em 0 1em;
+	padding-left: 1em;
+	border-left: thin solid #aaaaaa;
+}
+/* @noflip */
+#nav-meta span {
+	display: block;
+	font-size: 0.75em;
+	font-style: italic;
+	padding: 0.4em 0;
+}
+/* @noflip */
+#nav-meta .meta-sep {
+	display: none;
+}
+
+.printfooter {
+	display: none;
+}
+
+span.editsection {
+	font-size: 0.75em;
+}
+
+/* bo Box */
+
+
+.subtitle {
+	margin-bottom: 1em;
+	font-size: 0.875em;
+	font-style: italic;
+}
+
+/* References */
+.reference {
+	font-size: 0.875em;
+}
+
+sup.reference:target,
+ol.references > li:target {
+	background-color: #ddeeff;
+}
+
+/* Images */
+img {
+	padding: 0.25em;
+	margin-bottom: 0.5em;
+}
+
+div.floatright,
+table.floatright {
+	clear: right;
+	float: right;
+	margin: 0 0 0.5em 0.5em;
+	border: 0;
+}
+
+div.floatright p {
+	font-style: italic;
+}
+
+div.floatleft,
+table.floatleft {
+	float: left;
+	clear: left;
+	margin: 0 0.5em 0.5em 0;
+	border: 0;
+}
+
+div.floatleft p {
+	font-style: italic;
+}
+
+div.thumb {
+	margin-bottom: 0.5em;
+	width: auto;
+}
+/* @noflip */
+div.thumbinner {
+	border: thin solid #cccccc;
+	padding: 0.2em;
+	background-color: #f9f9f9;
+	font-size: 0.875em;
+	text-align: center;
+	overflow: hidden;
+}
+/* @noflip */
+img.thumbimage {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+/* @noflip */
+.thumbcaption {
+	border: none;
+	text-align: left;
+	padding: 0.2em;
+}
+/* @noflip */
+div.magnify {
+	float: right;
+}
+/* @noflip */
+div.magnify a,
+div.magnify img {
+	display: block;
+	border: none;
+}
+/* @noflip */
+div.tright {
+	clear: right;
+	float: right;
+	margin-left: 1em;
+}
+/* @noflip */
+div.tleft {
+	float: left;
+	clear: left;
+	margin-right: 1em;
+}
+/* @noflip */
+img.thumbborder {
+	border: thin solid #aaaaaa;
+}
+
+.hiddenStructure {
+	display: none;
+}
+
+table.gallery {
+	background-color: #fafafa;
+}
+
+table.gallery td {
+	background-color: #fafafa;
+	border: thin solid #fafafa;
+}
+
+table.mw-specialpages-table {
+	margin-top: 0;
+}
+
+/* Category and Special Page lists */
+#mw-pages ul,
+#mw-subcategories ul,
+table.mw-specialpages-table tbody tr td ul {
+	font-size: 0.875em;
+}
+
+/* Category Links */
+#catlinks {
+	clear: both;
+	background: #324e73;
+	height: 100%;
+	overflow: hidden;
+	/* Hide the colon after "Category" */
+	color: #666666;
+}
+
+#catlinks a {
+	color: #ffffff;
+	padding: 0 1em;
+	height: 100%;
+	font-size: 0.75em;
+	display: inline;
+}
+
+.catlinks li:first-child {
+	border-left: thin solid #aaaaaa;
+}
+
+.catlinks li {
+	margin: 0em 0.25em;
+}
+
+/* Messages */
+.message {
+	color: #ffffff;
+	background-color: #666666;
+	padding: 0.75em 0 0.25em;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-color: #666666;
+	border-width: thin;
+}
+
+.message * {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.message a:link,
+.message a:visited {
+	color: #dfdfdf;
+}
+
+#mw-js-message {
+	display: none;
+}
+
+.mw-search-formheader div.search-types ul li {
+	float: left;
+	margin-left: 2em;
+}
+
+div.searchresult {
+	margin-top: 1em;
+}
+
+.redirectText {
+	font-size: 0.875em;
+}
+
+.mw-jump {
+	position: absolute;
+	top: 1em;
+	left: 1em;
+	z-index: 1;
+	color: #ffffff;
+	font-size: 0.75em;
+}
+
+.mw-jump a {
+	color: #ffffff;
+}
+/*
+img#logo {
+	display: block;
+	margin: auto 0em;
+}
+*/
+#serxirr {
+	width: 940px;
+	margin: 0 auto;
+	}
+#serxirr a {
+	text-decoration: none;
+	border-bottom: 0;
+	}
+/* Ensure edit form doesn't clear the right floated meta
+ * (.action-edit is selected so that preview content is cleared) */
+body.action-edit #editform,
+body.action-edit #toolbar,
+body.action-edit #wpTextbox1 {
+	clear: none;
+}
+/* Sia Wiki */
+/* @noflip */
+#navcontainer ul
+{
+margin: 0;
+padding: 0;
+list-style-type: none;
+text-align: center;
+float: left;
+}
+
+#navcontainer ul li { display: inline; }
+
+#navcontainer ul li a
+{
+text-decoration: none;
+padding: .2em 1em;
+color: #fff;
+background-color: #203149;
+}
+
+#navcontainer ul li a:hover
+{
+color: #fff;
+background-color: #324e73;
+}
+/* Boxi Perist */
+#toc, .toc {
+    display: table;
+    padding: 7px;
+}
+#toc, .toc, .mw-warning {
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    font-size: 95%;
+    padding: 5px;
+}
+#toc, .toc {
+    display: table;
+    padding: 7px;
+}
+#toc, .toc, .mw-warning {
+    background-color: #f9f9f9;
+    border: 1px solid #aaa;
+    font-size: 95%;
+    padding: 5px;
+}
+#toc ul li {
+	list-style-type: none;
+	}
+/* @noflip */
+#torrlink {
+	float: left;
+	}
+#torrlink ul {
+	list-style-type: none;
+	}
+#torrlink ul li { display: inline; padding: .2em 1em; }

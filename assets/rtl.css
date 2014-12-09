@@ -1,0 +1,61 @@
+/* Using Google Early Fonts */
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/amiri.css);
+@import url(http://fonts.googleapis.com/earlyaccess/lateef.css);
+@import url(http://fonts.googleapis.com/earlyaccess/scheherazade.css);
+
+body {
+	font-family: 'DejaVu Sans', Tahoma, serif;
+	line-height: 1.4;
+	font-size: 14px;
+	background: #000 url(images/stripes-dark.svg);
+	color: #333333;
+}
+
+/* Use sans-serif font for headings and navigation */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+#nav-meta,
+#menu,
+#bottom-wrap {
+	font-family: "Droid Arabic Kufi", Tahoma, "DejaVu Sans", Verdana, sans-serif;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+}
+/* Set attractive monospace fonts */
+pre { 
+		padding: 1em;
+		border: 1px dashed #2f6fab;
+               -webkit-border-top-left-radius: 13px;
+               -webkit-border-bottom-right-radius: 13px;
+               -moz-border-radius-topleft: 13px;
+               -moz-border-radius-bottomright: 13px;
+               border-top-left-radius: 13px;
+               border-bottom-right-radius: 13px;
+		color: black;
+		background-color: #f9f9f9;
+		line-height: 1.1em;
+		direction: rtl;
+		
+
+}
+.c.source-c, .cpp.source-cpp, .xml.source-xml, .ruby.source-ruby, .mysql.source-mysql, .java.source-java, .sql.source-sql, .php.source-php, .css.source-css, .bash.source-bash, .javascript.source-javascript, .perl.source-perl, .python.source-python, .text.source-text, .html4strict.source-html4strict {
+		padding: 1em;
+		border: 1px dashed #2f6fab;
+               -webkit-border-top-left-radius: 13px;
+               -webkit-border-bottom-right-radius: 13px;
+               -moz-border-radius-topleft: 13px;
+               -moz-border-radius-bottomright: 13px;
+               border-top-left-radius: 13px;
+               border-bottom-right-radius: 13px;
+		color: black;
+		background-color: #f9f9f9;
+		line-height: 1.1em;
+		text-align: right;
+
+}
