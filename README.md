@@ -2,4 +2,5 @@ Chawgw
 ======
 
 A lightweight Mediawiki skin with RTL support.
-[Demo](https://www.chawg.org)
+
+[Demo](http://www.chawg.org)
